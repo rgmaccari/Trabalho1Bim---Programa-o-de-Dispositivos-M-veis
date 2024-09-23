@@ -136,14 +136,5 @@ public class MainActivity extends AppCompatActivity {
         } catch (NumberFormatException e){
             resultado.setText("Informe notas válidas");
         }
-
-/*
-*Notas:
-*   Ao invés de realizar uma validação para os campos de idade e nota, preferi simplificar
-*   determinando o tipo de dado diretamente no xml.
-*
-*
-*/
-
     }
 }
