@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(notaDois.getText().toString().isEmpty()){
-            resultado.setText("Insira a nota 2?° bimestre.");
+            resultado.setText("Insira a nota 2° bimestre.");
             return;
         }
 
@@ -127,10 +127,10 @@ public class MainActivity extends AppCompatActivity {
                             "\nE-mail: " + email.getText().toString() +
                             "\nIdade: " + idade.getText().toString() +
                             "\nMatéria: " + materia.getText().toString() +
-                            "\nNota 1° Bimestre " + notaUm.getText().toString() +
+                            "\nNota 1° Bimestre: " + notaUm.getText().toString() +
                             "\nNota 2° Bimestre: " + notaDois.getText().toString() +
-                            "\nMédia final " + media +
-                            "\nResultado:" + validarNota(media);
+                            "\nMédia final: " + media +
+                            "\nResultado: " + validarNota(media);
 
             resultado.setText(mensagem);
         } catch (NumberFormatException e){
